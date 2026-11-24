@@ -50,6 +50,9 @@ jobs:
 
       - name: 配置 Pages
         uses: actions/configure-pages@v5
+        with:
+          # 首次部署时仓库的 Pages 可能还没开启，这里允许自动启用（Source = GitHub Actions）
+          enablement: true
 
       - name: 上传构建产物
         uses: actions/upload-pages-artifact@v3
