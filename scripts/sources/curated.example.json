@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "capturedAt": "2026-11-24T08:00:00+08:00",
+  "note": "本文件是「示例格式」，不会被脚本自动读取。请复制为 curated.json 后再填写真实内容。",
+  "datasets": {
+    "videos": [
+      {
+        "id": "dy-20261124-001",
+        "platform": "douyin",
+        "title": "这里填写平台上的原始标题，不要二次改写",
+        "author": "作者昵称",
+        "category": "美食",
+        "cover": "https://example.invalid/cover.jpg",
+        "url": "https://www.douyin.com/video/0000000000000000000",
+        "summary": "你自己写的一句话看点，不要复制平台文案。",
+        "metrics": {
+          "play": null,
+          "like": null,
+          "comment": null,
+          "note": "平台页面未公开该数值，因此留空"
+        },
+        "rank": null,
+        "rankDelta": null,
+        "tags": ["探店", "家常菜"],
+        "source": "抖音 App 公开页面人工记录 2026-11-24 08:00",
+        "collectedAt": "2026-11-24T08:00:00+08:00",
+        "verified": true
+      }
+    ],
+    "audios": [
+      {
+        "id": "dy-a-20261124-001",
+        "platform": "douyin",
+        "title": "音频名 + 用途说明",
+        "audioTitle": "音频原名",
+        "artist": null,
+        "durationSec": 30,
+        "usageCount": null,
+        "category": "纯音乐",
+        "url": "https://www.douyin.com/",
+        "summary": "适合哪类内容使用。",
+        "metrics": { "play": null, "like": null, "note": "平台未公开" },
+        "source": "抖音公开音乐页人工记录",
+        "collectedAt": "2026-11-24T08:00:00+08:00",
+        "verified": true
+      }
+    ],
+    "effects": [
+      {
+        "id": "dy-e-20261124-001",
+        "platform": "douyin",
+        "title": "特效名 + 适用场景",
+        "effectName": "特效原名",
+        "effectType": "滤镜",
+        "usageCount": null,
+        "category": "滤镜",
+        "url": "https://www.douyin.com/",
+        "tutorialUrl": null,
+        "summary": "使用建议。",
+        "metrics": { "play": null, "like": null, "note": "平台未公开" },
+        "source": "抖音道具页人工记录",
+        "collectedAt": "2026-11-24T08:00:00+08:00",
+        "verified": true
+      }
+    ],
+    "douyin": [],
+    "kuaishou": [],
+    "rising": []
+  }
+}

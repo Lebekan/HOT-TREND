@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-11-24T08:00:00+08:00",
+  "status": "ok",
+  "mode": "sample",
+  "items": [
+    {
+      "version": "1.0",
+      "logs": [
+        {
+          "at": "2026-11-24T08:00:00+08:00",
+          "status": "skipped",
+          "trigger": "local",
+          "message": "初始化骨架已就绪。尚未配置合规数据源，本次未写入任何热点数据，示例条目保持不变。",
+          "detail": [],
+          "error": null
+        }
+      ]
+    }
+  ]
+}

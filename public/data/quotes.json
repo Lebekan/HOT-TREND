@@ -1,0 +1,129 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-11-24T08:00:00+08:00",
+  "status": "ok",
+  "mode": "curated",
+  "note": "公版典籍名句标注了确切出处；原创条目注明作者为 HOT TREND 原创，不冒充名人名言。",
+  "items": [
+    {
+      "id": "quote-001",
+      "content": "学而不思则罔，思而不学则殆。",
+      "author": "《论语·为政》",
+      "category": "治学",
+      "tags": ["论语", "学习"],
+      "source": "公版典籍",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "quote-002",
+      "content": "千里之行，始于足下。",
+      "author": "《道德经》",
+      "category": "行动",
+      "tags": ["道德经", "行动"],
+      "source": "公版典籍",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "quote-003",
+      "content": "不积跬步，无以至千里；不积小流，无以成江海。",
+      "author": "《荀子·劝学》",
+      "category": "积累",
+      "tags": ["荀子", "积累"],
+      "source": "公版典籍",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "quote-004",
+      "content": "纸上得来终觉浅，绝知此事要躬行。",
+      "author": "陆游《冬夜读书示子聿》",
+      "category": "实践",
+      "tags": ["陆游", "实践"],
+      "source": "公版典籍",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "quote-005",
+      "content": "路漫漫其修远兮，吾将上下而求索。",
+      "author": "屈原《离骚》",
+      "category": "求索",
+      "tags": ["屈原", "坚持"],
+      "source": "公版典籍",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "quote-006",
+      "content": "海内存知己，天涯若比邻。",
+      "author": "王勃《送杜少府之任蜀州》",
+      "category": "友情",
+      "tags": ["王勃", "友情"],
+      "source": "公版典籍",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "quote-007",
+      "content": "把一件小事做到别人不愿意做的程度，它就成了门槛。",
+      "author": "HOT TREND 原创",
+      "category": "做事",
+      "tags": ["原创", "门槛"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "quote-008",
+      "content": "多数时候，我们缺的不是方法，而是把方法用完的耐心。",
+      "author": "HOT TREND 原创",
+      "category": "耐心",
+      "tags": ["原创", "执行"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "quote-009",
+      "content": "选择困难的本质，是没有想清楚自己要放弃什么。",
+      "author": "HOT TREND 原创",
+      "category": "决策",
+      "tags": ["原创", "选择"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "quote-010",
+      "content": "情绪不是问题，压在情绪下面没说出口的那句话才是。",
+      "author": "HOT TREND 原创",
+      "category": "情绪",
+      "tags": ["原创", "沟通"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "quote-011",
+      "content": "真正的效率，是把不重要的事干净地放掉。",
+      "author": "HOT TREND 原创",
+      "category": "效率",
+      "tags": ["原创", "取舍"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "quote-012",
+      "content": "慢一点没关系，方向错才要紧。",
+      "author": "HOT TREND 原创",
+      "category": "方向",
+      "tags": ["原创", "节奏"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    }
+  ]
+}

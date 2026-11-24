@@ -1,0 +1,153 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-11-24T08:00:00+08:00",
+  "status": "ok",
+  "mode": "curated",
+  "note": "本文件为可直接使用的原创文案模板，不属于「热点数据」，无需更新管道即可长期使用；可按需自行增删。",
+  "items": [
+    {
+      "id": "copy-001",
+      "title": "开场留人：成本对比式",
+      "content": "别划走，这条视频能帮你省下三个月的试错成本。我把它拆成三步，第三步最关键。",
+      "category": "口播开场",
+      "platforms": ["douyin", "kuaishou"],
+      "usage": "知识、测评、教程类，前 3 秒必须给出「收益承诺」。",
+      "tags": ["留人", "开场", "干货"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "copy-002",
+      "title": "开场留人：反常识式",
+      "content": "如果你也遇到过这种情况，先别急着下结论——大概率不是你的问题，而是流程本身有问题。",
+      "category": "口播开场",
+      "platforms": ["douyin", "kuaishou"],
+      "usage": "观点类、职场类，用「不是你的错」降低防御心理。",
+      "tags": ["留人", "反差"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "copy-003",
+      "title": "剧情钩子：细节切入",
+      "content": "她只是随手翻了下手机，没想到翻到了三年前的聊天记录。那一刻她才发现，有些话从来没被说出口。",
+      "category": "剧情钩子",
+      "platforms": ["douyin", "kuaishou"],
+      "usage": "短剧、情感类，用具体动作代替情绪形容词。",
+      "tags": ["剧情", "悬念"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "copy-004",
+      "title": "剧情钩子：群体误判",
+      "content": "所有人都以为他要辞职，只有他自己知道，他是在赌一个机会。",
+      "category": "剧情钩子",
+      "platforms": ["douyin"],
+      "usage": "创业、职场逆袭类，一句话交代冲突与信息差。",
+      "tags": ["剧情", "反转"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "copy-005",
+      "title": "情感共鸣：克制表达",
+      "content": "成年人的崩溃是静音的，但恢复也是。第二天照样起床，照样出门，照样把话说完。",
+      "category": "情感共鸣",
+      "platforms": ["douyin", "kuaishou"],
+      "usage": "情感口播、图文号，避免用力过猛的形容词。",
+      "tags": ["情感", "共鸣"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "copy-006",
+      "title": "情感共鸣：关系距离",
+      "content": "不是不想联系，是怕打扰；后来就成了不敢，再后来就成了不必。",
+      "category": "情感共鸣",
+      "platforms": ["douyin", "kuaishou"],
+      "usage": "人际关系、旧友话题，三段递进结构便于配音停顿。",
+      "tags": ["情感", "关系"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "copy-007",
+      "title": "知识科普：结论先行",
+      "content": "先说结论：这件事九成的人都做反了。原因有三个，第二个最容易被忽略。",
+      "category": "知识科普",
+      "platforms": ["douyin", "kuaishou"],
+      "usage": "科普、干货，先给结论再给理由，符合观看习惯。",
+      "tags": ["科普", "结构"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "copy-008",
+      "title": "知识科普：排序给方法",
+      "content": "记住这个顺序：先看成本，再看效率，最后才谈体验。顺序错了，结论一定错。",
+      "category": "知识科普",
+      "platforms": ["douyin", "kuaishou"],
+      "usage": "方法论、决策类，用顺序感制造专业度。",
+      "tags": ["科普", "方法"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "copy-009",
+      "title": "带货转化：坦诚式",
+      "content": "价格我压不下来了，但我可以告诉你它值在哪三处，以及哪两类人不建议买。",
+      "category": "带货转化",
+      "platforms": ["douyin", "kuaishou"],
+      "usage": "以「劝退」建立信任，适合客单价较高的品类。",
+      "tags": ["带货", "信任"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "copy-010",
+      "title": "带货转化：对比收敛",
+      "content": "同价位我对比过五款，最后只留下一个理由：它在我最常用的那个场景里，没有让我多做一步。",
+      "category": "带货转化",
+      "platforms": ["douyin"],
+      "usage": "测评类，用具体场景替代堆参数。",
+      "tags": ["带货", "测评"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "copy-011",
+      "title": "互动引导：投票式",
+      "content": "评论区告诉我你的选择：是省时间，还是省钱。我按票数出一期详细测评。",
+      "category": "互动引导",
+      "platforms": ["douyin", "kuaishou"],
+      "usage": "结尾引导，二选一降低参与门槛。",
+      "tags": ["互动", "结尾"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    },
+    {
+      "id": "copy-012",
+      "title": "互动引导：暗号式",
+      "content": "如果你也踩过这个坑，评论区留个「1」，我把避坑清单整理出来发到下一条。",
+      "category": "互动引导",
+      "platforms": ["douyin", "kuaishou"],
+      "usage": "用极低动作成本（打一个字）换取互动量，并预告下一条。",
+      "tags": ["互动", "预告"],
+      "source": "HOT TREND 原创",
+      "collectedAt": "2026-11-24T08:00:00+08:00",
+      "verified": true
+    }
+  ]
+}

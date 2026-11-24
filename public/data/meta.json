@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-11-24T08:00:00+08:00",
+  "status": "empty",
+  "mode": "sample",
+  "note": "当前为 V1.0 初始骨架：视频、音频、特效与三类榜单条目均为占位示例，metrics 全部为 null，不含任何真实播放量、点赞量、热度或排名。爆款文案与经典语录为真实可用的原创/公版内容。",
+  "items": [
+    {
+      "version": "1.0",
+      "siteName": "HOT TREND",
+      "updatedAt": "2026-11-24T08:00:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "mode": "sample",
+      "platforms": ["douyin", "kuaishou"],
+      "counts": {
+        "videos": 4,
+        "audios": 3,
+        "effects": 3,
+        "douyin": 4,
+        "kuaishou": 4,
+        "rising": 3,
+        "copies": 12,
+        "quotes": 12
+      },
+      "disclosures": [
+        "本项目不调用任何付费数据接口，也不使用 API Key。",
+        "不绕过平台登录、验证码、验证签名或反爬机制，不抓取用户隐私数据。",
+        "平台未公开的播放量、点赞量、热度与排名一律显示「未公开」，不做估算、不做推算。",
+        "展示顺序不等于排名；只有当来源明确给出 rank 字段时，页面才显示名次。",
+        "视频与音频仅提供原平台官方链接跳转，不在本站缓存或二次分发。",
+        "所有数据以静态 JSON 托管于 GitHub Pages，无后端、无数据库、无账号体系。",
+        "自动更新失败时，仓库保留上一次有效数据，不会写入空值或半成品。"
+      ]
+    }
+  ]
+}

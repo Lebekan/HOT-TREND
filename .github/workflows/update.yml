@@ -1,0 +1,102 @@
+name: 每日数据更新
+
+# =============================================================================
+# 时区说明（重要）
+# GitHub Actions 的 schedule 只支持 UTC，没有 timezone 配置项。
+# 北京时间 08:00 = UTC 00:00，因此 cron 写 '0 0 * * *'。
+# 下面的 TZ: Asia/Shanghai 保证所有 date 输出、日志时间、提交信息都用北京时间。
+#
+# 生效条件：定时任务只在默认分支（main）上生效，请确保仓库默认分支为 main。
+# =============================================================================
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天 UTC 00:00 = 北京时间 08:00
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 本次手动更新的说明（可留空）
+        required: false
+        default: 手动更新
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hot-trend-data-update
+  cancel-in-progress: false
+
+env:
+  TZ: Asia/Shanghai
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  update:
+    name: 校验并写入数据
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 检出代码（main 分支）
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: 准备 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 打印执行时间（北京时间）
+        run: |
+          echo "触发方式：${{ github.event_name }}"
+          echo "当前时间：$(date '+%Y-%m-%d %H:%M:%S %Z (%z)')"
+          echo "数据源文件：$(test -f scripts/sources/curated.json && echo 存在 || echo 缺失)"
+
+      - name: 执行数据更新
+        id: update
+        # 失败时不让任务立刻中断，后面仍需提交日志并输出失败原因
+        continue-on-error: true
+        run: |
+          node scripts/update.mjs --trigger ${{ github.event_name == 'workflow_dispatch' && 'manual' || 'schedule' }}
+
+      - name: 提交数据变更
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if [ -z "$(git status --porcelain -- public/data)" ]; then
+            echo "public/data 无变化，跳过提交（上一次有效数据保持不变）"
+            exit 0
+          fi
+
+          git add public/data
+          git commit -m "chore(data): 数据更新 $(date '+%Y-%m-%d %H:%M') (Asia/Shanghai)"
+          git push origin HEAD:main
+
+      - name: 写出任务摘要
+        if: always()
+        run: |
+          {
+            echo "## HOT TREND 数据更新"
+            echo ""
+            echo "| 项目 | 值 |"
+            echo "| --- | --- |"
+            echo "| 触发方式 | \`${{ github.event_name }}\` |"
+            echo "| 北京时间 | \`$(date '+%Y-%m-%d %H:%M:%S')\` |"
+            echo "| 更新结果 | \`${{ steps.update.outcome }}\` |"
+            echo "| 数据源 | \`scripts/sources/curated.json\` |"
+            echo ""
+            echo "> 校验不通过时脚本不会写入任何文件，仓库保留上一次有效数据。"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 更新失败则标记本次运行失败
+        if: steps.update.outcome == 'failure'
+        run: |
+          echo "::error::数据更新失败，已保留上一次有效数据，请查看上一步日志。"
+          exit 1
