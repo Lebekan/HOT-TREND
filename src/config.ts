@@ -8,7 +8,7 @@ export const SITE = {
   version: 'V1.0',
   timezone: 'Asia/Shanghai',
   /** 例：https://github.com/yourname/hot-trend （创建仓库后替换这一行） */
-  repoUrl: '',
+  repoUrl: 'https://github.com/Lebekan/HOT-TREND',
 } as const
 
 export function buildActionsUrl(repoUrl: string): string {
