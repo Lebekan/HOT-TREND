@@ -32,3 +32,12 @@ desktop.ini
 # 例外：允许提交数据与更新日志
 !public/data/
 !public/data/**
+
+# 视频制作工作区：只保留成片、封面、脚本与投稿资料
+# 截图可由 `node video/capture.mjs` 重新生成，故不入库（含历史废弃版本）
+video/clips/
+video/test/
+video/shots/
+video/.cdp*/
+video/.diag*/
+video/.chrome-profile*/
